@@ -1,95 +1,96 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="utf-8">
-    <title>First Look | Unisex Salon in Six Mile, Guwahati</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta
-        content="First Look Salon Guwahati, First Look Hair & Beauty Studio, Unisex salon in Guwahati, Salon in Six Mile Guwahati, Hair salon Six Mile, Beauty salon Guwahati, Haircut Guwahati, Makeup artist Guwahati, Men's grooming Guwahati"
-        name="keywords">
-    <meta
-        content="First Look is a professional unisex hair and beauty salon on VIP Road, Six Mile, Guwahati, offering hair, skincare, makeup, nails and grooming services."
-        name="description">
-
-    <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
-
-    <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Playfair+Display:wght@500&family=Work+Sans&display=swap"
-        rel="stylesheet">
-
-    <!-- Icon Font Stylesheet -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
-
-    <!-- Libraries Stylesheet -->
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-
-    <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
-</head>
-
-<body>
-    <!-- Spinner Start -->
-    <div id="spinner"
-        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
-            <span class="sr-only">Loading...</span>
-        </div>
-    </div>
-    <!-- Spinner End -->
-
-
-    <!-- Navbar Start -->
-    <div class="container-fluid bg-light sticky-top p-0">
-        <nav class="navbar navbar-expand-lg navbar-light p-0">
-            <a href="index.html" class="navbar-brand bg-primary py-4 px-5 me-0">
-                <h1 class="mb-0">FIRST LOOK</h1>
-            </a>
-            <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse"
-                data-bs-target="#navbarCollapse">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse p-3" id="navbarCollapse">
-                <div class="navbar-nav mx-auto">
-                    <a href="index.html" class="nav-item nav-link">Home</a>
-                    <a href="about.html" class="nav-item nav-link">About</a>
-                    <a href="service.html" class="nav-item nav-link">Services</a>
-                    <a href="testimonial.html" class="nav-item nav-link">Reviews</a>
-                    <a href="contact.html" class="nav-item nav-link">Contact</a>
-                </div>
-                <a class="btn btn-sm btn-primary" href="contact.html">Book Appointment</a>
+    <div class="container-fluid service py-5">
+        <div class="container">
+            <div class="text-center wow fadeIn" data-wow-delay="0.1s">
+                <h1 class="font-dancing-script text-primary">Our Services</h1>
+                <h1 class="mb-5">Complete hair, beauty and grooming care for every occasion.</h1>
             </div>
-        </nav>
-    </div>
-    <!-- Navbar End -->
-
-
-    <!-- Hero Start -->
-    <div class="container-fluid bg-light page-header py-5 mb-5">
-        <div class="container text-center py-5">
-            <h1 class="display-1 animated slideInLeft">Our Team</h1>
-            <nav aria-label="breadcrumb">
-                <ol class="breadcrumb justify-content-center animated slideInLeft mb-0">
-                    <li class="breadcrumb-item"><a class="text-primary" href="#">Home</a></li>
-                    <li class="breadcrumb-item"><a class="text-primary" href="#">Pages</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Our Team</li>
-                </ol>
-            </nav>
+            <div class="row g-4 g-md-0 text-center">
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-item h-100 p-4 border-bottom border-end wow fadeIn" data-wow-delay="0.1s">
+                        <img class="img-fluid" src="img/haircut.png" alt="">
+                        <h3 class="mb-3">Hair Care</h3>
+                        <p class="mb-3">Refresh your look with professional haircuts, styling and advanced hair
+                            treatments designed for healthy, beautiful hair.</p>
+                        <p class="text-start small">Haircut, Hair Styling, Hair Colouring, Hair Spa, Hair Straightening,
+                            Hair Smoothening, Hair Rebonding, Hair Botox Treatment</p>
+                        <a class="btn btn-sm btn-primary text-uppercase mt-auto" href="contact.html">Book Now <i
+                                class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-item h-100 p-4 border-bottom border-lg-end wow fadeIn" data-wow-delay="0.3s">
+                        <img class="img-fluid" src="img/skin-care.png" alt="">
+                        <h3 class="mb-3">Skin Care</h3>
+                        <p class="mb-3">Give your skin the care it deserves with professional facial and skincare
+                            treatments.</p>
+                        <p class="text-start small">Facial, Advanced Facial, Anti-Aging Facial, Anti-Pollution Facial,
+                            Anti-Wrinkle Facial, Advanced Bleach, Face & Neck Bleach</p>
+                        <a class="btn btn-sm btn-primary text-uppercase mt-auto" href="contact.html">Book Now <i
+                                class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-item h-100 p-4 border-bottom border-end border-lg-end-0 wow fadeIn"
+                        data-wow-delay="0.5s">
+                        <i class="fa fa-cut fa-3x text-primary mb-3"></i>
+                        <h3 class="mb-3">Men's Grooming</h3>
+                        <p class="mb-3">Sharp cuts, clean grooming and stylish beard care for a confident look.</p>
+                        <p class="text-start small">Men's Haircut, Shaving, Special Shave, Beard Styling, Beard
+                            Crafting, Beard Design, Beard Trimming</p>
+                        <a class="btn btn-sm btn-primary text-uppercase mt-auto" href="contact.html">Book Now <i
+                                class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-item h-100 p-4 border-bottom border-lg-bottom-0 border-end wow fadeIn"
+                        data-wow-delay="0.1s">
+                        <img class="img-fluid" src="img/makeup.png" alt="">
+                        <h3 class="mb-3">Makeup</h3>
+                        <p class="mb-3">Look your best for parties, celebrations and special occasions with professional
+                            makeup services.</p>
+                        <p class="text-start small">Basic Makeup, Advanced Makeup, Basic Face Makeup, Advanced Party
+                            Makeup</p>
+                        <a class="btn btn-sm btn-primary text-uppercase mt-auto" href="contact.html">Book Now <i
+                                class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-item h-100 p-4 border-end border-lg-bottom-0 border-lg-end wow fadeIn"
+                        data-wow-delay="0.3s">
+                        <img class="img-fluid" src="img/manicure.png" alt="">
+                        <h3 class="mb-3">Nail Care</h3>
+                        <p class="mb-3">Complete your look with professional manicure and pedicure care.</p>
+                        <p class="text-start small">Manicure, Premium Manicure, Pedicure, Detan Pedicure</p>
+                        <a class="btn btn-sm btn-primary text-uppercase mt-auto" href="contact.html">Book Now <i
+                                class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-item h-100 p-4 border-lg-bottom-0 border-lg-end-0 wow fadeIn"
+                        data-wow-delay="0.5s">
+                        <i class="fa fa-leaf fa-3x text-primary mb-3"></i>
+                        <h3 class="mb-3">Waxing & Hair Removal</h3>
+                        <p class="mb-3">Professional grooming services for smooth and well-maintained skin.</p>
+                        <p class="text-start small">Eyebrow Threading, Body Waxing</p>
+                        <a class="btn btn-sm btn-primary text-uppercase mt-auto" href="contact.html">Book Now <i
+                                class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-item h-100 p-4 border-end border-top wow fadeIn" data-wow-delay="0.1s">
+                        <img class="img-fluid" src="img/massage.png" alt="">
+                        <h3 class="mb-3">Massage & Relaxation</h3>
+                        <p class="mb-3">Relax and refresh with soothing massage treatments.</p>
+                        <p class="text-start small">Oil Therapy Massage, Oil Massage</p>
+                        <a class="btn btn-sm btn-primary text-uppercase mt-auto" href="contact.html">Book Now <i
+                                class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-    <!-- Hero End -->
-
-
-    <!-- Why Choose Us Start -->
+    
     <div class="container-fluid overflow-hidden py-5">
         <div class="container">
             <div class="text-center wow fadeIn" data-wow-delay="0.2s">
@@ -142,10 +143,7 @@
             </div>
         </div>
     </div>
-    <!-- Why Choose Us End -->
-
-
-    <!-- Footer Start -->
+    
     <div class="container-fluid footer position-relative bg-dark text-white-50 py-5 mt-5 wow fadeIn"
         data-wow-delay="0.2s">
         <div class="container py-5">
@@ -195,40 +193,4 @@
             </div>
         </div>
     </div>
-    <!--  -->
-
-
-    <!-- Copyright Start -->
-    <div class="container-fluid bg-dark text-white border-top border-secondary py-4 wow fadeIn" data-wow-delay="0.1s">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    &copy; <a class="border-bottom" href="#">FIRST LOOK</a>. All Rights Reserved.
-                </div>
-                <div class="col-md-6 text-center text-md-end">
-                    Designed and developed by <a class="border-bottom" href="https://dev-shakil.site.je/?i=1">shakil</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--  -->
-
-
-    <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
-
-
-    <!-- JavaScript Libraries -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/counterup/counterup.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
-</body>
-
-</html>
+    
